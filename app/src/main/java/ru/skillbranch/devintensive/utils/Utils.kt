@@ -34,12 +34,4 @@ object Utils {
 
         return result
     }
-
-    fun transliteration(payload: String, divider: String = " "): String {
-        val fileContent = this::class.java.getResource("/vocabulary")?.readText()
-
-        println(fileContent)
-
-        return fileContent.toString()
-    }
 }

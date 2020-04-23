@@ -33,7 +33,3 @@ enum class TimeUnits{
     HOUR,
     DAY
 }
-
-fun Date.humanizeDiff(date: Date = Date()): String {
-    TODO()
-}
